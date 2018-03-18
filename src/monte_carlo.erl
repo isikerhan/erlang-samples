@@ -7,7 +7,7 @@
 %%%-------------------------------------------------------------------
 -module(monte_carlo).
 -author("Isik Erhan").
--export([main/0,monte_carlo/1]).
+-export([main/0, monte_carlo/1]).
 -import(lists, [filter/2, map/2, sum/1, nth/2]).
 -import(math, [sqrt/1, pow/2]).
 
